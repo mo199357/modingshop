@@ -1,0 +1,67 @@
+<ion-view hide-nav-bar="true">
+  <ion-content class="bc-f4">
+    <ion-list>
+      <ion-item class="padding-null border-0">
+       <div class="personal_top"></div>
+          <a class="icon ion-ios-gear-outline personal-left-top" ng-click="setUPgo('tab.setUp')"></a>
+          <div class="personal-middle">
+            <div ng-click="dataGo('tab.data')"><img src="../www/img/user_logo.png" alt="#" class="w10"/></div>
+            <span class="personal-user"><i ng-click="loginGo('tab.login')">登录</i>/<i ng-click="userGo('tab.user')">注册</i></span>
+          </div>
+      </ion-item>
+      <!--  all区  -->
+      <ion-item ng-click="orderGo('tab.order')">
+        <span class="all-left">全部订单</span>
+        <span class="all-right">查看全部订单<i class="icon ion-ios-arrow-right mlr10"></i></span>
+      </ion-item>
+      <!--  等待区 stay1,2,3,4  -->
+      <ion-item>
+        <a class="col col-25 floatL text-center" ng-click="pendingPaymentGo('tab.pendingPayment')">
+          <i class="stay1 stay-other"></i>
+          <p >待付款</p>
+        </a>
+        <a href="#" class="col col-25 floatL text-center">
+          <i class="stay2 stay-other"></i>
+          <p >待发货</p>
+        </a>
+        <a href="#" class="col col-25 floatL text-center">
+          <i class="stay3 stay-other"></i>
+          <p >待收货</p>
+        </a>
+        <a href="#" class="col col-25 floatL text-center">
+          <i class="stay4 stay-other"></i>
+          <p >退换货</p>
+        </a>
+      </ion-item>
+      <!--  其他区 other  -->
+      <ion-item class="mt20">
+        <a href="#" class="col col-25 floatL text-center">
+          <i class="other1 stay-other"></i>
+          <p >积分<span class="other-num">(0)</span></p>
+        </a>
+        <a href="#" class="col col-25 floatL text-center">
+          <i class="other2 stay-other"></i>
+          <p >优惠券<span class="other-num">(0)</span></p>
+        </a>
+        <a href="#" class="col col-25 floatL text-center">
+          <i class="other3 stay-other"></i>
+          <p >收藏<span class="other-num">(0)</span></p>
+        </a>
+      </ion-item>
+      <!--  列表区  -->
+      <ion-item class="item-icon-right item mt20">
+        <span class="list-all">账户与安全</span>
+        <i class="icon ion-ios-arrow-right list-right"></i>
+      </ion-item>
+      <ion-item class="item-icon-right item">
+        <span class="list-all">用户反馈</span>
+        <i class="icon ion-ios-arrow-right list-right"></i>
+      </ion-item>
+      <ion-item class="item-icon-right item">
+        <span class="list-all">关于我们</span>
+        <i class="icon ion-ios-arrow-right list-right"></i>
+      </ion-item>
+    </ion-list>
+
+  </ion-content>
+</ion-view>

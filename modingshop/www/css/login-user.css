@@ -1,0 +1,118 @@
+.pl0bcf4{
+  padding-left: 0;
+  background: #444;
+}
+.loginButton{
+  float: right;
+  margin-right: 16px;
+  font-size: 14px;
+}
+.bmW{
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 91%;
+  margin-top: 8px;
+}
+.register-num-grand-father {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 10px;
+  font-size: 12px;
+}
+.wcfw {
+  width: auto;
+  color: #666666;
+  font-size: 14px;
+  font-weight: 600;
+}
+.register-num-father {
+  width: 140px;
+  height: 47px;
+  padding: 0;
+  border-left: 1px solid #999999;
+  text-align: center;
+  color: #3db4ff !important;
+  min-width: 120px;
+}
+.icon-see {
+  margin-right: 12px;
+  background: url(../img/icon-eye.png) no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 13px;
+  margin-top: 4px;
+  display: block;
+}
+.icon-eye {
+  margin-top: 2px;
+  margin-right: 12px;
+  background: url(../img/icon-see.png) no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 13px;
+  display: block;
+}
+.border-M {
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 8px;
+  width: 91%;
+}
+.all {
+  width: 100%;
+  max-height: 100%;
+  min-height: 40px !important;
+  border:none;
+}
+.color {
+  background-color: #FE404C !important;
+  color: #fff;
+}
+.color-font {
+  background-color: #cccccc;
+  color: #fff;
+  font-weight: 600;
+  font-size: 17px;
+  margin: 0 !important;
+}
+.disMt {
+  display: inline-block;
+  margin-top: 6px;
+}
+.fcbb {
+  font-size: 14px;
+  color: #999999 !important;
+  background-color: #f4f4f4 !important;
+  border: none;
+}
+.red3db4ff {
+  color: #3db4ff !important;
+}
+.phoneButton{
+  border-right: 1px solid rgb(204, 204, 204) !important;
+  padding-right: 2px !important;
+}
+.padding-W {
+  padding: 0;
+  width: auto;
+  padding-right: 10px;
+}
+.position-ajZ {
+  right: 0!important;
+  top: 50%;
+}
+.mpwd {
+  margin: 0 10px;
+  padding: 0;
+  width: 100%;
+}
+.display-ib{
+  display: inline-block !important;
+  width: auto !important;
+}
+.dwf {
+  display: inline-block;
+  width: auto;
+  float: right;
+  margin-right: 10px;
+}

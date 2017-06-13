@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/node_modules/node-gyp/lib/remove.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/css/homepage.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/css/login-user.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/css/my-center.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/css/order.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/css/setUp.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/css/style.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/css/tab-account.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/css/tab-chats.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/css/tab-shop.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/account-all/accountAll.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/allJs/alljs.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/center-all/centerAll.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/chats-all/chartAll.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/homepage-all/homepageAll.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/services.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/shop-all/shopAll.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/js/tabs.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/lib/ionic/scss/_tabs.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/equipment/tab-account.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/homepage/tab-dash.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/myCenter/backPassword/backPassword.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/myCenter/forgetPassword/forgetPassword.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/myCenter/login-user/login.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/myCenter/login-user/user.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/myCenter/my-center.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/myCenter/order/order.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/myCenter/setUP/setUp.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/sale/tab-chats.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/shop/tab-shopping.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/templates/tabs.html" charset="UTF-8" />
+    <file url="file://F:/modingshop/www/templates/tab-dash.html" charset="UTF-8" />
+  </component>
+</project>

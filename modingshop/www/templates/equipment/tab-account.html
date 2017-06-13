@@ -1,0 +1,87 @@
+<ion-view>
+  <ion-nav-title class="title-tab">
+    <span>装备分类</span>
+  </ion-nav-title>
+  <ion-content class="bc-f4">
+   <div class="w10">
+     <!--  左部  -->
+     <ul class="col col-25 left-ul">
+       <li class="left-li" ng-class="{'bc_c':(1==setIndex)}" ng-click="toggle(1)">
+         <span class="left-span">户外背包</span>
+       </li>
+       <li class="left-li"  ng-class="{'bc_c':(2==setIndex)}" ng-click="toggle(2)">
+         <span class="left-span">登山/露营</span>
+       </li>
+       <li class="left-li"  ng-class="{'bc_c':(3==setIndex)}" ng-click="toggle(3)">
+         <span class="left-span">游泳/潜水</span>
+       </li>
+       <li class="left-li"  ng-class="{'bc_c':(4==setIndex)}" ng-click="toggle(4)">
+         <span class="left-span">服装/服饰</span>
+       </li>
+       <li class="left-li"  ng-class="{'bc_c':(5==setIndex)}" ng-click="toggle(5)">
+         <span class="left-span">户外鞋/袜</span>
+       </li>
+       <li class="left-li"  ng-class="{'bc_c':(6==setIndex)}" ng-click="toggle(6)">
+         <span class="left-span">攀冰/攀岩</span>
+       </li>
+       <li class="left-li"  ng-class="{'bc_c':(7==setIndex)}" ng-click="toggle(7)">
+         <span class="left-span">渔具/涉水</span>
+       </li>
+       <li class="left-li"  ng-class="{'bc_c':(8==setIndex)}" ng-click="toggle(8)">
+         <span class="left-span">其他装备</span>
+       </li>
+     </ul>
+     <!--  右部轮播图  -->
+     <ul class="col col-75 right-ul">
+
+       <ion-slide-box class="bc-f4"  auto-play="true" slide-interval="2000" does-continue="true" show-pager="false">
+         <ion-slide>
+           <img src="../www/img/1231.png" alt="#" class="w10"/>
+         </ion-slide>
+
+         <ion-slide>
+           <img src="../www/img/1231.png" alt="#" class="w10"/>
+         </ion-slide>
+
+         <ion-slide>
+           <img src="../www/img/1231.png" alt="#" class="w10"/>
+         </ion-slide>
+
+         <ion-slide>
+           <img src="../www/img/1231.png" alt="#" class="w10"/>
+         </ion-slide>
+
+       </ion-slide-box>
+     </ul>
+     <!--  右下商品分类  -->
+     <ul class="col col-75 right-ul">
+       <li>
+         <div class="w10 right-one_div background-343843">冰雪装备</div>
+         <div class="w10 bc-f">
+           <div class="col col-33">
+             <img src="../www/img/a9.jpg" alt="#" class="w10"/>
+             <p class="right-p">滑雪手套/护具</p>
+           </div>
+         </div>
+       </li>
+       <li>
+         <div class="w10 right-one_div background-343843">安全保护</div>
+         <div class="w10 bc-f">
+           <div class="col col-33 floatL">
+             <img src="../www/img/a9.jpg" alt="#" class="w10"/>
+             <p class="right-p">滑雪手套/护具</p>
+           </div>
+           <div class="col col-33 floatL">
+             <img src="../www/img/a9.jpg" alt="#" class="w10"/>
+             <p class="right-p">滑雪手套</p>
+           </div>
+           <div class="col col-33 floatL">
+             <img src="../www/img/a9.jpg" alt="#" class="w10"/>
+             <p class="right-p">滑雪手套/护具</p>
+           </div>
+         </div>
+       </li>
+     </ul>
+   </div>
+  </ion-content>
+</ion-view>

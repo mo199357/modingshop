@@ -1,0 +1,159 @@
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, big, cite, code, del, em, font, img, ins, small, strong, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend { margin: 0; padding: 0;}
+ol,ul,li{ list-style:none; list-style-position:outside;}
+:focus { outline: 0 none;}
+a,img {border: 0 none;}
+input{border: 0 none;}
+img {vertical-align: middle;}
+a,a:hover{text-decoration:none !important;}
+body,html{
+  font-size: 62.5% !important;
+}
+.bc-f4{
+  background: #f4f4f4;
+}
+.bc_c{
+  background: #ccc;
+  color: #ff3b30 !important;
+}
+.w10{
+  width: 100%;
+}
+.bc_f{
+  border-radius: 2px;
+  width: 53.85%;
+  display: inline-block;
+  height: 2.4rem;
+  background: #000 !important;
+  color: #fff !important;
+}
+.color-0{
+  color: #000 !important;
+}
+.color-f{
+  color: #fff !important;
+}
+.border-0{
+  border: none;
+}
+.border-botton{
+  border-bottom: 1px solid #ddd;
+}
+.font-none{
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  text-align: center;
+}
+.font-min{
+  font-size: 1rem;
+}
+.font-weight600{
+  font-weight: 600;
+  text-align: center;
+}
+.font-decoration{
+  text-decoration: line-through;
+  text-align: center;
+}
+.padding-null{
+  padding: 0 !important;
+}
+.floatL{
+  float: left;
+}
+.vertical-sub{
+  vertical-align: sub;
+}
+.font-14{
+  font-size: 1.2rem;
+}
+.fontS14 {
+  font-size: 14px;
+}
+/**
+  底部导航栏图标
+  **/
+.ion-homepage{
+  width: 26px;
+  background: url("../img/fimily.png") no-repeat center;
+  background-size: contain;
+}
+.ion-ios-homepage{
+  width: 26px;
+  background: url("../img/shouyedianjiq.png") no-repeat center;
+  background-size: contain;
+}
+.ion-sale{
+  width: 26px;
+  background: url("../img/brand.png") no-repeat center;
+  background-size: contain;
+}
+.ion-ios-sale{
+  width: 26px;
+  background: url("../img/pinpaidianjiqian.png") no-repeat center;
+  background-size: contain;
+}
+.ion-equipment{
+  width: 26px;
+  background: url("../img/equip.png") no-repeat center;
+  background-size: contain;
+}
+.ion-ios-equipment{
+  width: 26px;
+  background: url("../img/zhuangbeifenleidianjiq.png") no-repeat center;
+  background-size: contain;
+}
+.ion-shop{
+  width: 26px;
+  background: url("../img/cart.png") no-repeat center;
+  background-size: contain;
+}
+.ion-ios-shop{
+  width: 26px;
+  background: url("../img/gouwuchedianjiq-.png") no-repeat center;
+  background-size: contain;
+}
+.my-icon{
+  width: 26px;
+  background: url("../img/my.png") no-repeat center;
+  background-size: contain;
+}
+.my-img{
+  width: 26px;
+  background: url("../img/wodedianjiq.png") no-repeat center;
+  background-size: contain;
+}
+/**
+完
+**/
+.margin-null{
+  margin: 0 !important;
+}
+.mt-26{
+  margin-top: -26px;
+}
+.pl2{
+  padding-left: 2px;
+}
+.mlr10{
+  margin: 0 10px;
+}
+.mt20{
+  margin-top: 20px;
+}
+.background-343843{
+  background: #343843;
+}
+.ml10{
+  margin-left: 10px;
+}
+.position-r {
+  position: relative;
+}
+.color9 {
+  color: #999999 !important;
+}
+.pr5{
+  padding-right: 5px !important;
+  font-size: 12px !important;
+}

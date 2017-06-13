@@ -1,0 +1,104 @@
+.shop-Name-css {
+  color: #343843;
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 16px;
+}
+.reminder {
+  float: right;
+  color: #fe404c;
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 16px;
+}
+.item-thumbnail-left {
+  padding-top: 8px;
+  padding-left: 140px;
+  max-height: 222px;
+}
+.onebytwo {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -moz-box;
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+}
+.mL-085rem {
+  margin-left: -31px;
+}
+.onebytwo>p:nth-child(1) {
+  -webkit-box-flex: 2;
+  -moz-box-flex: 2;
+  -ms-box-flex: 2;
+}
+.onebytwo>p {
+  display: block;
+}
+.overPaceN {
+  white-space: normal !important;
+}
+.color-343843 {
+  color: #343843 !important;
+}
+.onebytwo>p:nth-child(2) {
+  -webkit-box-flex: 2;
+  -moz-box-flex: 2;
+  -ms-box-flex: 2;
+}
+.font12-c9 {
+  font-size: 12px !important;
+  color: #999 !important;
+}
+.color-fe404c {
+  color: #fe404c !important;
+}
+.fontS19 {
+  font-size: 19px;
+}
+.amount {
+  top: 80px;
+  font-size: 18px;
+  color: #999;
+}
+.icon-img-css {
+  position: absolute;
+  top: 75px;
+  right: 1rem;
+  font-size: 30px;
+  color: #fe404c !important;
+}
+.close-an-account {
+  color: #333;
+  font-size: 12px;
+  text-align: right;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.button-all-css {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.button-one {
+  color: #333333;
+  border: 1px solid #333;
+}
+.self-button-all {
+  border-radius: 5px;
+  background: none;
+  width: 74px;
+  height: 25px;
+  line-height: 20px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.button-two {
+  border: none;
+  background-color: #fe404c;
+  color: #fff;
+}

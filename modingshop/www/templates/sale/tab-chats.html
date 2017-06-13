@@ -1,0 +1,27 @@
+<ion-view view-title="特卖" class="margin-null">
+  <ion-nav-title class="title-tab">
+    <div>
+      <span class="title-div_span1">特卖</span>
+      <div class="mt-26">abc</div>
+    </div>
+  </ion-nav-title>
+  <ion-content>
+    <div class="w10">
+      <img src="../www/img/special_02.png" alt="#" class="w10"/>
+    </div>
+    <ion-list>
+      <ion-item class="row bc-f border-0">
+        <div class="col-60 col-offset-20 one-item">
+                    <span ng-class="{'bc_f':true,'bc_f':isActive}" ng-click="isActive=true" style="float: left;width: 50%;display: inline-block;">
+                        <i class="ion-ios-cart-outline ois-icon"></i>
+                        <span class="ois-span">9点上新</span>
+                    </span>
+                    <span ng-class="{'bc_f':false,'one-item-span':!isActive}" ng-click="isActive=false" style="float: right;width: 50%;display: inline-block;">
+                        <i class="ion-ios-cart-outline ois-icon"></i>
+                        <span class="ois-span">9点上新</span>
+                    </span>
+        </div>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

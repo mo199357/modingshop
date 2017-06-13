@@ -1,0 +1,202 @@
+<ion-view view-title="网上商城" class="border-0">
+    <ion-nav-buttons>
+        <button class=" icon button button-clear ion-ios-search-strong"></button>
+    </ion-nav-buttons>
+
+    <ion-content>
+        <ion-slide-box class="bc-f4"  auto-play="true" slide-interval="2000" does-continue="true" show-pager="false">
+            <ion-slide>
+                <img src="../www/img/a3.png" alt="#" class="w10"/>
+            </ion-slide>
+
+            <ion-slide>
+                <img src="../www/img/a3.png" alt="#" class="w10"/>
+            </ion-slide>
+
+            <ion-slide>
+                <img src="../www/img/a3.png" alt="#" class="w10"/>
+            </ion-slide>
+
+            <ion-slide>
+                <img src="../www/img/a3.png" alt="#" class="w10"/>
+            </ion-slide>
+
+        </ion-slide-box>
+        <ion-list>
+            <ion-item class="row bc-f border-0 border-botton" style="padding: 5px 0;">
+                <div class="w10" style="position: relative;">
+                  <div class="col-60 col-offset-20 one-item">
+                    <span  ng-class="{'one-item-span':true,'one-item-span': isActive}" ng-click="isActive=true" style="width: 50%;display: inline-block;">
+                        <i class="ion-ios-cart-outline ois-icon"></i>
+                        <span class="ois-span">热销商品</span>
+                    </span>
+                    <span  ng-class="{'bc_f':true,'bc_f': !isActive}" ng-click="isActive=false" style="width: 49%;display: inline-block;">
+                        <i class="ion-ios-cart-outline ois-icon"></i>
+                        <span class="ois-span">9点上新</span>
+                    </span>
+                  </div>
+
+                  <div ng-show="isActive" class="row border-0" style="padding-bottom: 0;">
+                    <div class="col col-33">
+                      <img src="../www/img/a4.png" alt="#" class="w10"/>
+                      <div class="font-none font-min">很贵的商品之你绝对买不起系列</div>
+                      <div class="text-center font-weight600">RMB&nbsp;888</div>
+                      <div class="font-decoration font-min">RMB&nbsp;999</div>
+                    </div>
+                    <div class="col col-33">
+                      <img src="../www/img/a4.png" alt="#" class="w10"/>
+                      <div class="font-none font-min">很贵的商品之你绝对买不起系列</div>
+                      <div class="text-center font-weight600">RMB&nbsp;888</div>
+                      <div class="font-decoration font-min">RMB&nbsp;999</div>
+                    </div>
+                    <div class="col col-33">
+                      <img src="../www/img/a4.png" alt="#" class="w10"/>
+                      <div class="font-none font-min">很贵的商品之你绝对买不起系列</div>
+                      <div class="text-center font-weight600">RMB&nbsp;888</div>
+                      <div class="font-decoration font-min">RMB&nbsp;999</div>
+                    </div>
+                  </div>
+
+                  <div ng-show="isActive==false" class="border-0" style="padding-bottom: 0;margin-top: 0;padding-top: 5px;">
+                    <img src="../www/img/bottom.jpg" alt="#" style="width: 100%;height: 226px;"/>
+                  </div>
+                  <a class=" icon-right ion-ios-more col-offset-10 item-a" style="position: absolute;right: 10px;top:1px;"></a>
+                </div>
+
+            </ion-item>
+
+
+
+
+        <ion-list>
+            <ion-item class="border-0 padding10 bc-f4">
+                <img src="../www/img/a5.png" alt="#" class="w10"/>
+            </ion-item>
+            <ion-item class="border-0 padding-null border-botton bc-f4">
+                <div class="row bc-f w10">
+                    <div class="floatL col col-50">
+                      <span class="font-weight600 vertical-sub"><i class="outdoors-icon"></i>户外装备</span>
+                    </div>
+                    <div class="see-more col col-50">
+                      <span>查看更多 <i class="icon ion-ios-arrow-right"></i></span>
+                    </div>
+                </div>
+
+                <div class="row row-wrap bc-f" style="margin-top: 5px;padding: 0;">
+                    <div class="col col-50 margin-b2">
+                      <img src="../www/img/a4.png" alt="#" class="w10"/>
+                      <div class="font-weight600 font-min">Tripolar三极</div>
+                      <div class="text-center font-none font-min">户外女装冲锋衣</div>
+                      <div class="font-min font-weight600">RMB&nbsp;988</div>
+                    </div>
+                    <div class="col col-50 margin-b2">
+                      <img src="../www/img/a4.png" alt="#" class="w10"/>
+                      <div class="font-weight600 font-min">瑞兴RAX</div>
+                      <div class="text-center font-none font-min">这是一个卖户外商品的品牌</div>
+                      <div class="font-min font-weight600">RMB&nbsp;988</div>
+                    </div>
+                    <div class="col col-50 margin-b2">
+                      <img src="../www/img/a4.png" alt="#" class="w10"/>
+                      <div class="font-weight600 font-min">瑞兴RAX</div>
+                      <div class="text-center font-none font-min">这是一个卖户外商品的品牌</div>
+                      <div class="font-min font-weight600">RMB&nbsp;988</div>
+                    </div>
+                    <div class="col col-50">
+                      <img src="../www/img/a4.png" alt="#" class="w10"/>
+                      <div class="font-weight600 font-min">瑞兴RAX</div>
+                      <div class="text-center font-none font-min">这是一个卖户外商品的品牌</div>
+                      <div class="font-min font-weight600">RMB&nbsp;988</div>
+                    </div>
+                    <div class="col col-50">
+                      <img src="../www/img/a4.png" alt="#" class="w10"/>
+                      <div class="font-weight600 font-min">瑞兴RAX</div>
+                      <div class="text-center font-none font-min">这是一个卖户外商品的品牌</div>
+                      <div class="font-min font-weight600">RMB&nbsp;988</div>
+                    </div>
+                    <div class="col col-50">
+                      <img src="../www/img/a4.png" alt="#" class="w10"/>
+                      <div class="font-weight600 font-min">瑞兴RAX</div>
+                      <div class="text-center font-none font-min">这是一个卖户外商品的品牌</div>
+                      <div class="font-min font-weight600">RMB&nbsp;988</div>
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+        <ion-list>
+        <ion-item class="border-0 padding10 bc-f4">
+          <img src="../www/img/a5.png" alt="#" class="w10"/>
+        </ion-item>
+        <ion-item class="border-0 padding-null border-botton bc-f4">
+          <div class="row bc-f w10">
+            <div class="floatL col col-50">
+              <span class="font-weight600 vertical-sub"><i class="outdoors-icon"></i>户外装备</span>
+            </div>
+            <div class="see-more col col-50">
+              <span>查看更多 <i class="icon ion-ios-arrow-right"></i></span>
+            </div>
+          </div>
+
+          <div class="row row-wrap bc-f" style="margin-top: 5px;padding: 0;">
+            <div class="col col-33 margin-b2">
+              <img src="../www/img/a4.png" alt="#" class="w10"/>
+              <div class="font-weight600 font-min">Tripolar三极</div>
+              <div class="text-center font-none font-min">户外女装冲锋衣</div>
+              <div class="font-min font-weight600">RMB&nbsp;988</div>
+            </div>
+            <div class="col col-33 margin-b2">
+              <img src="../www/img/a4.png" alt="#" class="w10"/>
+              <div class="font-weight600 font-min">瑞兴RAX</div>
+              <div class="text-center font-none font-min">这是一个卖户外商品的品牌</div>
+              <div class="font-min font-weight600">RMB&nbsp;988</div>
+            </div>
+            <div class="col col-33 margin-b2">
+              <img src="../www/img/a4.png" alt="#" class="w10"/>
+              <div class="font-weight600 font-min">瑞兴RAX</div>
+              <div class="text-center font-none font-min">这是一个卖户外商品的品牌</div>
+              <div class="font-min font-weight600">RMB&nbsp;988</div>
+            </div>
+            <div class="col col-33">
+              <img src="../www/img/a4.png" alt="#" class="w10"/>
+              <div class="font-weight600 font-min">瑞兴RAX</div>
+              <div class="text-center font-none font-min">这是一个卖户外商品的品牌</div>
+              <div class="font-min font-weight600">RMB&nbsp;988</div>
+            </div>
+            <div class="col col-33">
+              <img src="../www/img/a4.png" alt="#" class="w10"/>
+              <div class="font-weight600 font-min">瑞兴RAX</div>
+              <div class="text-center font-none font-min">这是一个卖户外商品的品牌</div>
+              <div class="font-min font-weight600">RMB&nbsp;988</div>
+            </div>
+            <div class="col col-33">
+              <img src="../www/img/a4.png" alt="#" class="w10"/>
+              <div class="font-weight600 font-min">瑞兴RAX</div>
+              <div class="text-center font-none font-min">这是一个卖户外商品的品牌</div>
+              <div class="font-min font-weight600">RMB&nbsp;988</div>
+            </div>
+          </div>
+        </ion-item>
+      </ion-list>
+        <ion-list>
+            <ion-item class="padding-null">
+              <div class="row bc-f w10">
+                  <span class=""><i class="find-icon"></i>发现好店——各品牌商品</span>
+              </div>
+              <div class="row row-wrap padding-null" style="margin-top: 0;">
+                <div class="w10">
+                  <img src="../www/img/bottom.jpg" alt="#" class="w10" style="height:12rem"/>
+                </div>
+                <div class="w10 mt20">
+                  <img src="../www/img/bottom.jpg" alt="#" class="w10"  style="height:12rem"/>
+                </div>
+                <!--<div class="col col-50 find-padding">
+                  <img src="../www/img/bottom.jpg" alt="#" class="w10"/>
+                </div>
+                <div class="col col-50 find-padding">
+                  <img src="../www/img/bottom.jpg" alt="#" class="w10"/>
+                </div>-->
+              </div>
+            </ion-item>
+        </ion-list>
+  </ion-content>
+  </ion-view>
+

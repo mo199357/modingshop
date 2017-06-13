@@ -1,0 +1,33 @@
+.left-ul{
+  float: left;
+  display: inline-block;
+  background: #fff;
+  padding: 0;
+}
+.left-li{
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  color: #ff8a01;
+  border-bottom: 1px solid #ddd;
+}
+.left-span{
+  font-size: 14px;
+  font-weight: 400;
+}
+.right-ul{
+  float: left;
+  display: inline-block;
+}
+.right-one_div{
+  text-align: left;
+  padding-left: 10px;
+  height: 32px;
+  line-height: 32px;
+  color: #fff;
+}
+.right-p{
+  font-size: 14px;
+  text-align: center;
+}

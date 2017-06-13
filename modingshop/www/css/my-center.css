@@ -1,0 +1,76 @@
+.personal_top{
+  width: 100%;
+  background: url("../img/my02.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+  height: 14rem;
+}
+.personal-left-top{
+  color: #fff;
+  font-size: 24px;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+.personal-middle{
+  text-align: center;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  margin-left: -3rem;
+  width: 6rem;
+  height: 6rem;
+}
+.personal-user{
+  font-size: 14px;
+  color: #f4f4f4;
+}
+.all-left{
+  margin-left: 16px;
+  font-size: 14px;
+}
+.all-right{
+  float: right;
+  color: #999;
+  font-size: 14px;
+}
+.stay-other{
+  width: 40px;
+  height: 28px;
+  display: block;
+  background-size: cover !important;
+  margin: 0 auto;
+}
+.stay1{
+  background: url("../img/pay.png") no-repeat center;
+}
+.stay2{
+  background: url("../img/receive.png") no-repeat center;
+}
+.stay3{
+  background: url("../img/evaluate.png") no-repeat center;
+}
+.stay4{
+  background: url("../img/quit.png") no-repeat center;
+}
+.other1{
+  background: url("../img/integral.png") no-repeat center;
+}
+.other2{
+  background: url("../img/bill.png") no-repeat center;
+}
+.other3{
+  background: url("../img/favorable.png") no-repeat center;
+}
+.list-all{
+  margin-left: 16px;
+  font-size: 14px;
+  color: #333;
+}
+.list-right{
+  font-size: 14px !important;
+  color: #ccc;
+}
+.other-num{
+  color: #fe404c !important;
+}
